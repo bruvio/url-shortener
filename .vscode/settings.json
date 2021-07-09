@@ -1,0 +1,111 @@
+
+
+{
+    "python.pythonPath": ".env3.8/bin/python",
+    "python.formatting.blackPath": ".env3.8/bin//black",
+    "python.defaultInterpreterPath": ".env3.8/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "editor.formatOnType": true,
+    "git.confirmSync": false,
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "jupyter.interactiveWindowMode": "perFile",
+    "jupyter.askForKernelRestart": false,
+    "aws.profile": "profile:default",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "wordWrapColumn",
+    "html.format.enable": true,
+    "html.format.contentUnformatted": "",
+    "todohighlight.isCaseSensitive": true,
+    "editor.formatOnSave": true,
+    "[sql]": {
+        "editor.formatOnSave": false
+    },
+    "files.trimTrailingWhitespace": true,
+    "python.analysis.extraPaths": [
+        "src"
+    ],
+    "python.sortImports.args": [
+        "-sp isort.cfg",
+        "--float-to-top"
+    ],
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+
+
+
+    "todohighlight.keywords": [
+      {
+        "text": "VIDEO:",
+        "color": "#333",
+        "backgroundColor": "#3498db"
+        // "overviewRulerColor": "DarkKhaki",
+        // "border": "1px solid DarkKhaki",
+        // "borderRadius": "3px",
+        // "isWholeLine": false
+      },
+      {
+        "text": "FIXME:",
+        "color": "#333",
+        "backgroundColor": "#f1c40f"
+        // "overviewRulerColor": "#72824E",
+        // "border": "1px solid #72824E",
+        // "borderRadius": "3px",
+        // "isWholeLine": false
+      },
+      {
+        "text": "BUG",
+        "color": "#333",
+        "backgroundColor": "#e74c3c"
+        // "overviewRulerColor": "STEELBLUE",
+        // "border": "1px solid STEELBLUE",
+        // "borderRadius": "3px",
+        // "isWholeLine": false
+      },
+      {
+        "text": "TODO",
+        "color": "#333",
+        "backgroundColor": "#2ecc71"
+        // "overviewRulerColor": "#72848A",
+        // "border": "1px solid #72848A",
+        // "borderRadius": "3px",
+        // "isWholeLine": true
+      }
+    ],
+    "window.zoomLevel": 0,
+    "python.testing.pytestEnabled": true,
+    "yaml.schemas": {
+      "file:///Users/bruvio/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "workbench.sideBar.location": "right",
+    "editor.autoIndent": "advanced",
+    "[yaml]": {
+
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "keep",
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+      }
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
