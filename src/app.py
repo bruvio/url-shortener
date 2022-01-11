@@ -12,8 +12,7 @@ def get_db_connection():
 
 
 def create_app():
-    app = Flask(__name__)
-    return app
+    return Flask(__name__)
 
 
 app = create_app()
@@ -34,9 +33,7 @@ def generate_hasdid(url, conn):
     conn.close()
 
     url_id = url_data.lastrowid
-    hashid = hashids.encode(url_id)
-
-    return hashid
+    return hashids.encode(url_id)
 
 
 def get_original_url(original_id, conn):
